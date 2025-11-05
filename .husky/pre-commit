@@ -1,6 +1,4 @@
 #!/usr/bin/env sh
-# 使用 lint-staged 针对暂存区进行校验
-set -e
+. "$(dirname "$0")/_/husky.sh"
 
-pnpm lint:stage
-
+pnpm exec tsno run ./scripts/pre-commit.ts

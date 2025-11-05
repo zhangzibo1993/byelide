@@ -3,8 +3,8 @@
 </template>
 
 <script setup lang="ts">
-const creatTime = 1234567890
 // 空即可
+const creatTime = 1234567890
 </script>
 
 <style lang="less" scoped>
@@ -12,6 +12,7 @@ const creatTime = 1234567890
 
 .btn {
   display: block; /* 重复属性：会报错但不会自动修复 */
+  display: flex;
   margin: 0 8px; /* 冒号后缺空格：会被提示/修复 */
   font-size: 16px;
   font-weight: bold;
