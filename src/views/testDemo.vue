@@ -3,6 +3,7 @@
 </template>
 
 <script setup lang="ts">
+const creatTime = 1234567890
 // 空即可
 </script>
 
