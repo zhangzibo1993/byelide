@@ -1,3 +1,0 @@
-njsproj
-styl
-tsno
